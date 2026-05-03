@@ -1,0 +1,38 @@
+# Core ML
+torch>=2.1.0
+transformers>=4.40.0
+peft>=0.10.0
+datasets>=2.18.0
+accelerate>=0.28.0
+evaluate>=0.4.0
+
+# QLoRA / efficient training
+bitsandbytes>=0.43.0
+# unsloth -- install separately: pip install unsloth (platform-specific)
+
+# RAG & embeddings
+chromadb>=0.4.24
+sentence-transformers>=2.6.0
+
+# Data collection
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+sec-edgar-downloader>=5.0.4
+yfinance>=0.2.37
+pdfminer.six>=20221105
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pandas>=2.0.0
+numpy>=1.26.0
+cryptography>=42.0.0
+
+# Evaluation
+rouge-score>=0.1.2
+nltk>=3.8.0
+scikit-learn>=1.4.0
+
+# Dev
+jupyter>=1.0.0
+ipykernel>=6.29.0
