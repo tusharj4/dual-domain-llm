@@ -46,7 +46,7 @@ def download_phrasebank():
 
         # 'sentences_allagree' = only sentences all annotators agreed on (highest quality)
         dataset = load_dataset(
-            "financial_phrasebank", "sentences_allagree", trust_remote_code=True
+            "financial_phrasebank", "sentences_allagree"
         )
 
         out_path = RAW_FIN / "financial_phrasebank.jsonl"
